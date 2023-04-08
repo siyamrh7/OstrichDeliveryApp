@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+*{
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+*::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.stylenone{
+  all: unset;
+}
+.inputstylenone{
+  border: none;
+  outline: none;
+  background: none;
+}
+a{
+  text-decoration: none;
+  all: unset;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-sf-pro-text: "SF Pro Text";
+  --font-noto-serif: "Noto Serif";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-3xl: 22px;
+  --font-size-xl: 20px;
+  --font-size-6xl: 25px;
+  --font-size-3xs: 10px;
+  --font-size-xs: 12px;
+  --font-size-5xl: 24px;
+  --font-size-mid: 17px;
+
+  /* Colors */
+  --white: #fff;
+  --gray-5: #e0e0e0;
+  --gray-4: #bdbdbd;
+  --color-darkslateblue: #2b2b53;
+  --tersier: #2c2b46;
+  --orange: #fe9370;
+  --color-lightgray: #d1d3d9;
+  --label-color-light-primary: #000;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-8xs: 5px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-mini: 15px;
+  --padding-xl: 20px;
+  --padding-8xs: 5px;
+
+  /* border radiuses */
+  --br-xl: 20px;
+  --br-31xl: 50px;
+  --br-3xs: 10px;
+  --br-8xs-6: 4.6px;
+  --br-81xl: 100px;
+  --br-11xl: 30px;
+
+  /* Effects */
+  --drop-shadow: 6px 6px 110px rgba(0, 0, 0, 0.16);
+}

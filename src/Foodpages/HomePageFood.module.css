@@ -1,0 +1,685 @@
+.notchIcon {
+  position: absolute;
+  top: -2px;
+  left: calc(50% - 109.5px);
+  width: 219px;
+  height: 30px;
+  display: none;
+}
+.rightSideIcon {
+  position: absolute;
+  top: 17.33px;
+  right: 14.67px;
+  width: 66.66px;
+  height: 11.34px;
+}
+.div {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 54px;
+  height: 20px;
+}
+.leftSide,
+.statusbarTime {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+}
+.statusbarTime {
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+}
+.leftSide {
+  top: 12px;
+  left: 24px;
+}
+.statusbarIphoneXOrNewer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 44px;
+  overflow: hidden;
+  color: #000;
+  font-family: "SF Pro Text";
+}
+.bannerAds {
+  position: relative;
+  border-radius: 10px;
+  background-color: #fe9370;
+  width: 320px;
+  height: 145px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.bannerAdsParent {
+  position: absolute;
+  top: 383px;
+  left: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 90vw;
+  overflow-x: scroll;
+  margin-left: -45vw;
+}
+.unsplashsnlfvyml8osIcon {
+  position: absolute;
+  top: 0;
+  width: 226px;
+  height: 150px;
+  object-fit: cover;
+}
+.image {
+  align-self: stretch;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.3);
+  height: 150px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.kebabMarroco {
+  position: relative;
+  line-height: 110%;
+  display: inline-block;
+  width: 167px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconlyregularboldstar {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.star {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.ratingStarEtcChild {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  flex-shrink: 0;
+}
+.k1 {
+  letter-spacing: -0.5px;
+}
+.k,
+.km {
+  position: relative;
+  line-height: 110%;
+  font-weight: 500;
+}
+.km {
+  letter-spacing: -0.5px;
+}
+.ratingStarEtc {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 13px;
+}
+.hotPromo,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text {
+  align-self: stretch;
+  flex: 1;
+  padding: 15px 10px 10px;
+  justify-content: space-between;
+}
+.hotPromo {
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 6px 6px 120px rgba(0, 0, 0, 0.15);
+  width: 187px;
+  height: 235px;
+  flex-shrink: 0;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.unsplashsnlfvyml8osIcon1,
+.unsplashsnlfvyml8osIcon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 226px;
+  height: 150px;
+  object-fit: cover;
+}
+.unsplashsnlfvyml8osIcon3 {
+  left: 0px;
+}
+.promo {
+  position: absolute;
+  top: 26px;
+  left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.promoWrapper {
+  position: absolute;
+  top: 558px;
+  left: 0;
+  background-color: #fe9370;
+  width: 100vw;
+  height: 287px;
+  overflow-x: scroll;
+  text-align: left;
+  font-size: 18px;
+}
+.lorem {
+  position: relative;
+}
+.loremWrapper {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.seeAll {
+  position: relative;
+  font-weight: 600;
+}
+.iconlyregularlightfilter {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.frameParent,
+.seeAllParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.seeAllParent {
+  border-radius: 40px;
+  background-color: #fe9370;
+  padding: 5px 10px;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  color: #fff;
+}
+.frameParent {
+  width: 90vw;
+  justify-content: space-between;
+}
+.titleTopSubTitleseeAl {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+}
+.unsplashsnlfvyml8osIcon4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 199.07px;
+  height: 132.13px;
+  object-fit: cover;
+}
+.image4,
+.waroengUmmi {
+  align-self: stretch;
+  position: relative;
+}
+.image4 {
+  border-radius: 20px;
+  box-shadow: 0 3.523404121398926px 35.23px rgba(0, 0, 0, 0.3);
+  height: 132.13px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.waroengUmmi {
+  line-height: 110%;
+}
+.jajananWrapper {
+  border-radius: 40px;
+  background-color: #fe9370;
+  display: flex;
+  flex-direction: row;
+  padding: 0 5px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameGroup,
+.waroengUmmiParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex-direction: row;
+  gap: 5px;
+  text-align: center;
+  font-size: 8px;
+  color: #fff;
+}
+.waroengUmmiParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 4px;
+}
+.iconlyregularboldstar4 {
+  position: relative;
+  width: 15.86px;
+  height: 15.86px;
+  flex-shrink: 0;
+}
+.div6 {
+  position: relative;
+  letter-spacing: -0.44px;
+  line-height: 110%;
+  font-weight: 500;
+}
+.star4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4.4px;
+}
+.ratingStarEtcChild5 {
+  position: relative;
+  width: 3.52px;
+  height: 3.52px;
+  flex-shrink: 0;
+}
+.ratingStarEtc4,
+.text4 {
+  align-self: stretch;
+  display: flex;
+}
+.ratingStarEtc4 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8.81px;
+  font-size: 12px;
+}
+.text4 {
+  flex: 1;
+  flex-direction: column;
+  padding: 8px 8px 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.card2,
+.card2Parent,
+.recommenededResto {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.recommenededResto {
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 6px 6px 110px rgba(0, 0, 0, 0.16);
+  width: 165px;
+  height: 218px;
+  flex-shrink: 0;
+  overflow: hidden;
+  flex-direction: column;
+}
+.card2,
+.card2Parent {
+  flex-direction: row;
+}
+.card2Parent {
+  gap: 16px;
+}
+.recommenededResto3,
+.titleTopSubTitleseeAlParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.recommenededResto3 {
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 5.285106182098389px 5.285106182098389px 105.7px
+    rgba(0, 0, 0, 0.15);
+  width: 165px;
+  height: 218px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.titleTopSubTitleseeAlParent {
+  position: absolute;
+  top: 875px;
+  left: 50%;
+  gap: 16px;
+  text-align: left;
+  font-size: 16px;
+  width: 90vw;
+  margin-left: -45vw;
+  padding-bottom: 100px;
+}
+.lorem1 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.titleTopSubTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.taxi2Icon {
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  width: 62.37px;
+  height: 62.37px;
+  object-fit: cover;
+  display: none;
+}
+.placeMarkerIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.placeMarkerParent {
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 25.5px);
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.categoryIcon {
+  position: relative;
+  border-radius: 8.91px;
+  background-color: #f2f2f2;
+  width: 75px;
+  height: 70px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.priceTagParent {
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 27.5px);
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.burger1Icon {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  display: none;
+}
+.cheeseburgerIcon {
+  position: relative;
+  width: 46.49px;
+  height: 40px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.cheeseburgerParent {
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 23.5px);
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.broccoli1Icon {
+  position: absolute;
+  height: 71.43%;
+  top: 14.29%;
+  bottom: 14.29%;
+  left: 12px;
+  max-height: 100%;
+  width: 50px;
+  object-fit: cover;
+  display: none;
+}
+.vegetablesBoxParent {
+  position: absolute;
+  top: calc(50% - 35px);
+  left: calc(50% - 24.5px);
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.div12,
+.titleTopSubTitleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 12px;
+  width: 100%;
+}
+.titleTopSubTitleParent {
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  font-size: 18px;
+  color: #2c2b46;
+  width: 90vw;
+  margin-left: -45vw;
+}
+.iconlyregularbulklocation {
+  position: relative;
+  width: 29px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.location1 {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.deliverTo,
+.nairobiKenya {
+  position: relative;
+  line-height: 20px;
+  font-weight: 300;
+}
+.nairobiKenya {
+  font-weight: 500;
+}
+.iconlyregularlightarrowD {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.locationGroup,
+.nairobiKenyaParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.nairobiKenyaParent {
+  align-items: flex-start;
+  gap: 10px;
+  text-align: left;
+  font-size: 15px;
+}
+.locationGroup {
+  align-items: center;
+  gap: 5px;
+  z-index: 0;
+}
+.frameChild,
+.icon {
+  flex-shrink: 0;
+}
+.icon {
+  position: relative;
+  width: 25.5px;
+  height: 24px;
+  z-index: 1;
+}
+.frameChild {
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  left: 335px;
+  width: 6px;
+  height: 6px;
+  display: none;
+  z-index: 2;
+}
+.frameParent4 {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.magnifyingglassIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.vegetablesFruits {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+.magnifyingglassParent {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  border: 1.5px solid #e0e0e0;
+  box-sizing: border-box;
+  width: 90vw;
+  height: 61.5px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 16px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 15px;
+  color: #828282;
+}
+.locationParent,
+.titleTopSubTitle1 {
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 12px;
+  margin-left: -45vw;
+}
+.titleTopSubTitle1 {
+  top: 30px;
+  width: 90vw;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+}
+.FoodItemFlex{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.foodMain{
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.foodDeliveryService {
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  font-size: 15px;
+  color: #2b2b53;
+  font-family: Poppins;
+}
+
+@media (max-width: 385px) {
+  .titleTopSubTitleseeAlParent {
+    width: 100vw;
+    margin-left: -50vw;
+  }
+  .frameParent{
+    padding-left: 10px;
+  }
+  .FoodItemFlex{
+    gap: 10px;
+  }
+}

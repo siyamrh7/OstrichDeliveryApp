@@ -1,0 +1,116 @@
+.apply5 {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #ffffff !important;
+}
+.apply-wrapper3,
+.button5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.apply-wrapper3 {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  background-color: var(--tersier);
+  overflow: hidden;
+  padding: var(--padding-mini) var(--padding-xl);
+  justify-content: center;
+}
+.button5 {
+  width: 80vw;
+  justify-content: flex-start;
+}
+.apply6 {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+}
+.apply-wrapper4 {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  border: 2px solid var(--tersier);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+}
+.button-parent,
+.button6 {
+  display: flex;
+  justify-content: flex-start;
+}
+.button6 {
+  width: 80vw;
+  flex-direction: row;
+  align-items: center;
+  font-size: var(--font-size-mid);
+  color: var(--tersier);
+}
+.button-parent {
+  position: absolute;
+  top: 50%;
+  margin-top: 20vh;
+  left: 50%;
+  margin-left: -40vw;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.frame-child,
+.frame-item {
+  position: relative;
+  flex-shrink: 0;
+}
+.frame-child {
+  border-radius: var(--br-3xs);
+  background-color: var(--gray-5);
+  width: 80vw;
+  height: 218px;
+  overflow: hidden;
+}
+.frame-item {
+  width: 10px;
+  height: 10px;
+}
+.ellipse-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frame-parent3,
+.login-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent3 {
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.login-inner {
+  position: absolute;
+  top: 50%;
+  margin-top: -30vh;
+  left: 50%;
+  margin-left: -40vw;
+  align-items: flex-start;
+}
+.login {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}

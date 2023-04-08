@@ -1,0 +1,115 @@
+
+.whats-your-phone {
+  position: absolute;
+  top: 18vh;
+  left: 50%;
+  margin-left: -40vw;
+  width: 100vw;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue);
+}
+.apply3 {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.apply-wrapper1 {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  background-color: var(--tersier);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+}
+.button-wrapper1,
+.button3 {
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
+.button3 {
+  width: 80vw;
+  flex-direction: row;
+  align-items: center;
+}
+.button-wrapper1 {
+  position: absolute;
+  top: 85vh;
+  left: 50%;
+  margin-left: -40vw;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xl);
+}
+.div {
+  position: relative;
+  font-weight: 600;
+}
+.number-wrapper {
+  border-radius: var(--br-11xl);
+  background-color: var(--orange);
+  padding: var(--padding-8xs) var(--padding-base);
+  justify-content: center;
+}
+.frame-group,
+.street2,
+.number-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.street2 {
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid var(--gray-5);
+  box-sizing: border-box;
+  width: 60vw;
+  height: 52.75px;
+  flex-shrink: 0;
+  overflow: hidden;
+  padding: var(--padding-base);
+  justify-content: flex-start;
+  font-size: var(--font-size-5xl);
+}
+.frame-group {
+  width: 80vw;
+  justify-content: flex-start;
+}
+.will-send-verification {
+  position: relative;
+  font-size: var(--font-size-xs);
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-weight: 200;
+  color: var(--tersier);
+  text-align: center;
+}
+.frame-parent {
+  position: absolute;
+  top: 25vh;
+  left: 50%;
+  margin-left: -40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-mid);
+}
+.login-sign-up {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24.96px;
+  color: var(--white);
+  font-family: var(--font-poppins);
+}

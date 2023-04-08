@@ -1,0 +1,429 @@
+.notchIcon {
+  position: absolute;
+  top: -2px;
+  left: calc(50% - 109.5px);
+  width: 219px;
+  height: 30px;
+  display: none;
+}
+.rightSideIcon {
+  position: absolute;
+  top: 17.33px;
+  right: 14.67px;
+  width: 66.66px;
+  height: 11.34px;
+}
+.div {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 54px;
+  height: 20px;
+}
+.leftSide,
+.statusbarTime {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+}
+.statusbarTime {
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+}
+.leftSide {
+  top: 12px;
+  left: 24px;
+}
+.statusbarIphoneXOrNewer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 44px;
+  overflow: hidden;
+  font-family: "SF Pro Text";
+}
+.magnifyingglassIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+.searchBar {
+  position: absolute;
+  top: 94px;
+  left: 14px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  width: 345px;
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  color: #bdbdbd;
+}
+.recentlyClicked {
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #2b2b53;
+}
+.iconlysharpbulktimeCircle {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+  display: none;
+}
+.categories {
+  border-radius: 40px;
+  background-color: #ffe6de;
+  flex-direction: row;
+  padding: 8px;
+  gap: 8px;
+}
+.categories,
+.div1,
+.item,
+.recenlySearch {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div1 {
+  width: 345px;
+  flex-direction: row;
+  gap: 8px;
+}
+.item,
+.recenlySearch {
+  flex-direction: column;
+}
+.recenlySearch {
+  position: absolute;
+  top: 194px;
+  left: 14px;
+  gap: 16px;
+  color: #fe9370;
+}
+.restoNearMe1 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.unsplashsnlfvyml8osIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 199.07px;
+  height: 132.13px;
+  object-fit: cover;
+}
+.image {
+  align-self: stretch;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 3.523404121398926px 35.23px rgba(0, 0, 0, 0.3);
+  height: 132.13px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.waroengUmmi {
+  align-self: stretch;
+  line-height: 110%;
+}
+.jajanan,
+.waroengUmmi {
+  position: relative;
+}
+.jajananWrapper {
+  border-radius: 40px;
+  background-color: #fe9370;
+  display: flex;
+  flex-direction: row;
+  padding: 0 5px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameParent,
+.waroengUmmiParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: row;
+  gap: 5px;
+  text-align: center;
+  font-size: 8px;
+  color: #fff;
+}
+.waroengUmmiParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 4px;
+}
+.iconlyregularboldstar {
+  position: relative;
+  width: 15.86px;
+  height: 15.86px;
+  flex-shrink: 0;
+}
+.star {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4.4px;
+}
+.ratingStarEtcChild {
+  position: relative;
+  width: 3.52px;
+  height: 3.52px;
+  flex-shrink: 0;
+}
+.km {
+  position: relative;
+  letter-spacing: -0.44px;
+  line-height: 110%;
+  font-weight: 500;
+}
+.ratingStarEtc {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8.81px;
+  font-size: 12px;
+}
+.card2,
+.recommenededResto,
+.text7 {
+  display: flex;
+  align-items: flex-start;
+}
+.text7 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  padding: 8px 8px 10px;
+  justify-content: space-between;
+}
+.card2,
+.recommenededResto {
+  justify-content: flex-start;
+}
+.recommenededResto {
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 6px 6px 110px rgba(0, 0, 0, 0.16);
+  width: 165px;
+  height: 218px;
+  flex-shrink: 0;
+  overflow: hidden;
+  flex-direction: column;
+}
+.card2 {
+  flex-direction: row;
+}
+.image1 {
+  align-self: stretch;
+  position: relative;
+  border-radius: 17.62px;
+  box-shadow: 0 3.523404121398926px 35.23px rgba(0, 0, 0, 0.3);
+  height: 132.13px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.nusaPenidas {
+  position: relative;
+  line-height: 110%;
+}
+.fastFoodWrapper {
+  border-radius: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  padding: 0 5px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.ratingStarEtc1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8.81px;
+  font-size: 11.45px;
+}
+.recommenededResto1,
+.text8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.text8 {
+  align-self: stretch;
+  flex: 1;
+  padding: 13.21276569366455px 8.808509826660156px 8.808509826660156px;
+  justify-content: space-between;
+}
+.recommenededResto1 {
+  border-radius: 17.62px;
+  background-color: #fff;
+  box-shadow: 5.285106182098389px 5.285106182098389px 105.7px
+    rgba(0, 0, 0, 0.15);
+  width: 165px;
+  height: 224px;
+  flex-shrink: 0;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+.card2Parent,
+.mostVisited6 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card2Parent {
+  flex-direction: row;
+}
+.mostVisited6 {
+  font-size: 15.86px;
+}
+.mostVisited6,
+.mostVisited8Parent {
+  flex-direction: row;
+}
+.mostVisited8Parent,
+.restoNearMe {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card2Parent {
+  gap: 16px;
+  font-size: 16px;
+}
+.mostVisited8Parent,
+.restoNearMe {
+  gap: 16px;
+}
+.mostVisited8Parent {
+  font-size: 15.86px;
+}
+.restoNearMe {
+  position: absolute;
+  top: 330px;
+  left: 14px;
+  flex-direction: column;
+  text-align: left;
+  font-size: 18px;
+  color: #2b2b53;
+  overflow-y: scroll;
+  height: calc(100vh - 340px);
+}
+.iconlyregularoutlinearrow {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.lorem {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.dividerIcon,
+.titleTopSubTitle {
+  position: absolute;
+  left: 15px;
+  width: 345px;
+}
+.titleTopSubTitle {
+  top: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 20px;
+  color: #2b2b53;
+}
+
+
+.home {
+  position: relative;
+  font-weight: 600;
+}
+.navbarIcon {
+  color: #fe9370;
+}
+.navbarIcon,
+.navbarIcon1 {
+  width: 35px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+.navbarHome {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.navbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  border-top: 1.5px solid #e0e0e0;
+  box-sizing: border-box;
+  width: 375px;
+  height: 94.75px;
+  display: none;
+  flex-direction: row;
+  padding: 0 0 16px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #bdbdbd;
+}
+.foodDeliveryService {
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  font-family: Poppins;
+}

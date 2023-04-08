@@ -1,0 +1,259 @@
+
+.see-all2 {
+    position: relative;
+    font-weight: 600;
+  }
+  .kebab {
+    position: relative;
+    letter-spacing: 0.46px;
+    line-height: 18.48px;
+  }
+  .kebab {
+    font-weight: 600;
+  }
+  .text3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .divider-icon4 {
+    position: relative;
+    width: 318.77px;
+    height: 0.92px;
+    flex-shrink: 0;
+  }
+  .text-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18.48px;
+  }
+  .burger-1-icon {
+    position: absolute;
+    top: 9.24px;
+    left: 11.09px;
+    width: 46.2px;
+    height: 46.2px;
+    object-fit: cover;
+    display: none;
+  }
+  .cheeseburger-icon {
+    position: relative;
+    width: 42.95px;
+    height: 36.96px;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .cheeseburger-parent {
+    position: absolute;
+    top: calc(50% - 32.68px);
+    left: calc(50% - 21.82px);
+    height: 64.68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.62px;
+  }
+  .category-icon {
+    position: relative;
+    border-radius: 8.23px;
+    background-color: #f2f2f2;
+    width: 69.3px;
+    height: 64.68px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+  .get-your-food {
+    align-self: stretch;
+    position: relative;
+    font-size: 11.09px;
+    text-align: left;
+  }
+  .get-food-now-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4.62px;
+    font-size: 13.86px;
+  }
+  .category-icon-parent {
+    width: 318.77px;
+    height: 64.68px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 9.24px;
+  }
+  .taxi-icon {
+    position: relative;
+    width: 36.96px;
+    height: 36.96px;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .taxi-parent {
+    height: 64.68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.62px;
+  }
+  .taxi-2-icon {
+    position: relative;
+    width: 57.63px;
+    height: 57.63px;
+    flex-shrink: 0;
+    object-fit: cover;
+    display: none;
+  }
+  .category-icon-group,
+  .category-icon1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 9.24px;
+  }
+  .category-icon1 {
+    border-radius: 8.23px;
+    background-color: #f2f2f2;
+    width: 69.3px;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding: 0 15.70754623413086px;
+    box-sizing: border-box;
+    align-items: flex-start;
+  }
+  .category-icon-group {
+    width: 318.77px;
+    align-items: center;
+  }
+  .broccoli-1-icon {
+    position: absolute;
+    height: 71.43%;
+    top: 14.29%;
+    bottom: 14.29%;
+    left: 11.09px;
+    max-height: 100%;
+    width: 46.2px;
+    object-fit: cover;
+    display: none;
+  }
+  .vegetables-box-parent {
+    position: absolute;
+    top: calc(50% - 32.68px);
+    left: calc(50% - 22.61px);
+    height: 64.68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.62px;
+  }
+  .car-icon,
+  .vpn-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 49.27px;
+    height: 49.27px;
+    object-fit: cover;
+  }
+  .vpn-icon {
+    top: 41.67px;
+    left: 35.89px;
+    width: 26.75px;
+    height: 26.75px;
+  }
+  .car-parent {
+    position: absolute;
+    top: 7.39px;
+    left: 6.22px;
+    width: 62.65px;
+    height: 49.27px;
+    display: none;
+  }
+  .car-rental-parent {
+    left: calc(50% - 19.05px);
+  }
+  .car-rental-parent,
+  .glossy-lips-parent,
+  .worker-parent {
+    position: absolute;
+    top: calc(50% - 32.68px);
+    height: 64.68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.62px;
+  }
+  .worker-parent {
+    left: calc(50% - 20.61px);
+  }
+  .glossy-lips-parent {
+    left: calc(50% - 19.65px);
+  }
+  .frame-parent5,
+  .frame-parent6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18.48px;
+  }
+  .frame-parent6 {
+    font-size: 11.09px;
+  }
+  .frame-parent5 {
+    position: absolute;
+    top: 27.72px;
+    left: 13.86px;
+    color: #2c2b46;
+    overflow-y: scroll;
+    height: 90%;
+  }
+  .what-do-you-want-to-ride {
+    position: absolute;
+    left: 0;
+    border-radius: 18.48px 18.48px 0 0;
+    background-color: #fff;
+    width: 100vw;
+    height: 75vh;
+    color: #fff;
+    bottom: 0px;
+  }
+  .search-page {
+      transition: 1s;
+    position: relative;
+    /* background-color: rgba(0,0,0, 0.4); Black w/opacity/see-through */
+    width: 100vw;
+    height: 75vh;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18.48px;
+    color: #2c2b46;
+    font-family: Poppins;
+    z-index: 100;
+    bottom:0px;
+    position: absolute;
+    left: 0px;
+    -webkit-transition: background-color 3000ms linear,bottom 1000ms,height 1s;
+    -ms-transition: background-color 3000ms linear,bottom 1000ms,height 1s;
+    transition: background-color 3000ms linear,bottom 1000ms,height 1s;
+  }
+  .search-page-none {
+    bottom:-100vh;
+    position: absolute;
+    background-color: none;
+    height: 75vh;
+    -webkit-transition: background-color 3000ms linear,bottom 1000ms,height 1s;
+    -ms-transition: background-color 3000ms linear,bottom 1000ms,height 1s;
+    transition: background-color 3000ms linear,bottom 1000ms,height 1s;
+  }

@@ -1,0 +1,112 @@
+.iconlyregularoutlinearrow- {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.get-started {
+  position: relative;
+}
+.get-started-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.iconlyregularoutlinearrow-parent {
+  position: absolute;
+  top: 41px;
+  left: 15px;
+  width: 345px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.apply {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.apply-wrapper {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  background-color: var(--tersier);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+}
+.button,
+.button-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.button {
+  width: 345px;
+  flex-direction: row;
+  align-items: center;
+}
+.button-wrapper {
+  position: absolute;
+  top: 732px;
+  left: 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+}
+.your-email {
+  position: relative;
+  font-weight: 500;
+}
+.frame-wrapper,
+.street {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.whats-your-email-parent {
+  display: flex;
+}
+.street {
+  flex: 1;
+  border-bottom: 1.5px solid var(--gray-5);
+  box-sizing: border-box;
+  height: 52.75px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-base);
+}
+.frame-wrapper {
+  flex-direction: column;
+  font-size: var(--font-size-lg);
+  color: var(--gray-4);
+}
+.whats-your-email-parent {
+  flex-direction: column;
+  position: absolute;
+  top: 157px;
+  left: 15px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue);
+}
+.email {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  width: 100%;
+  height: 812px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24.96px;
+  color: var(--tersier);
+  font-family: var(--font-poppins);
+}

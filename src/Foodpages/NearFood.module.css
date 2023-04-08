@@ -1,0 +1,393 @@
+.notchIcon {
+  position: absolute;
+  top: -2px;
+  left: calc(50% - 109.5px);
+  width: 219px;
+  height: 30px;
+  display: none;
+}
+.rightSideIcon {
+  position: absolute;
+  top: 17.33px;
+  right: 14.67px;
+  width: 66.66px;
+  height: 11.34px;
+}
+.div {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 54px;
+  height: 20px;
+}
+.leftSide,
+.statusbarTime {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+}
+.statusbarTime {
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+}
+.leftSide {
+  top: 12px;
+  left: 24px;
+}
+.statusbarIphoneXOrNewer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 44px;
+  overflow: hidden;
+  color: #000;
+  font-family: "SF Pro Text";
+}
+.magnifyingglassIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.text {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  background: none;
+}
+.magnifyingglassParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.searchBarChild {
+  position: relative;
+  border-radius: 70px;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.searchBar {
+  position: absolute;
+  top: 74px;
+  left: 50%;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  width: 90vw;
+  height: 60px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: -45vw;
+}
+.iconlyregularoutlinefilter {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.text1 {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  display: none;
+}
+.iconlysharpbulktimeCircle {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+  display: none;
+}
+.categories {
+  border-radius: 40px;
+  background-color: #fe9370;
+  border: 1px solid #fe9370;
+  padding: 8px;
+  gap: 8px;
+  color: #fff;
+}
+.categories,
+.categories1,
+.sortBy {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.categories1 {
+  border-radius: 40px;
+  background-color: #ffe6de;
+  padding: 8px 20px;
+  gap: 8px;
+}
+.sortBy {
+  position: absolute;
+  top: 154px;
+  left: 15px;
+  gap: 6px;
+  color: #fe9370;
+}
+.iconlyregularoutlinearrow {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.titleTopSubTitle {
+  position: absolute;
+  top: 54px;
+  left: 15px;
+  width: 345px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 20px;
+}
+.imageIcon {
+  position: relative;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.pizzaHutCombo {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.pizzaHutComboSpecialWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fastFood {
+  position: relative;
+}
+.fastFoodWrapper {
+  border-radius: 40px;
+  background-color: #fff;
+  display: none;
+  flex-direction: row;
+  padding: 0 5px;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 8px;
+  color: #fff;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.iconlyregularboldstar {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.star {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.ratingStarEtcChild {
+  position: relative;
+  width: 4px;
+  height: 4px;
+  flex-shrink: 0;
+}
+.km,
+.min {
+  position: relative;
+  line-height: 110%;
+  font-weight: 500;
+}
+.km {
+  letter-spacing: -0.5px;
+}
+.frameParent,
+.ratingStarEtc {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.ratingStarEtc {
+  width: 190px;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  font-size: 13px;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.span {
+  color: #fe9370;
+}
+.b {
+  position: relative;
+  letter-spacing: 1px;
+  line-height: 110%;
+}
+.star1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 26px;
+  color: #f2994a;
+}
+.text5 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardBox,
+.item,
+.text5 {
+  align-items: flex-start;
+}
+.item {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.cardBox {
+  border-radius: 20px;
+  border: 1.5px solid #e0e0e0;
+  box-sizing: border-box;
+  width: 90vw;
+  flex-direction: column;
+  padding: 10px;
+}
+.cardBox,
+.itemSearchFound,
+.star9 {
+  display: flex;
+  justify-content: flex-start;
+}
+.star9 {
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  font-size: 26px;
+  color: #fe9370;
+}
+.itemSearchFound {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  font-size: 16px;
+  margin-left: -45vw;
+  height: calc(100vh - 230px);
+  overflow-y: scroll;
+}
+.dividerIcon {
+  position: absolute;
+  top: 173.5px;
+  left: 15px;
+  width: 345px;
+  height: 1px;
+}
+.home {
+  position: relative;
+  font-weight: 600;
+}
+.navbarIcon {
+  color: #fe9370;
+}
+.navbarIcon,
+.navbarIcon1 {
+  width: 35px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+.navbarHome {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.iosBar,
+.navbar {
+  position: absolute;
+}
+.navbar {
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  border-top: 1.5px solid #e0e0e0;
+  box-sizing: border-box;
+  width: 375px;
+  height: 94.75px;
+  display: none;
+  flex-direction: row;
+  padding: 0 0 16px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #bdbdbd;
+}
+.iosBar {
+  width: calc(100% - 241px);
+  right: 116px;
+  bottom: 12px;
+  left: 125px;
+  border-radius: 99px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 8px;
+}
+.foodDeliveryService {
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  font-size: 15px;
+  color: #2b2b53;
+  font-family: Poppins;
+}

@@ -1,0 +1,340 @@
+.pictNameMessageChild {
+  position: relative;
+  border-radius: 10px;
+  width: 71px;
+  height: 71px;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.johnDoe,
+.online {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.online {
+  font-size: 10px;
+  letter-spacing: -0.5px;
+  font-weight: 500;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 99px;
+}
+.nameMessage {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.pictNameMessage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frameChild,
+.iconlylightvideo {
+  position: relative;
+  flex-shrink: 0;
+}
+.iconlylightvideo {
+  width: 24px;
+  height: 24px;
+}
+.frameChild {
+  width: 3.5px;
+  height: 3.5px;
+}
+.ellipseParent,
+.iconlylightvideoParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipseParent {
+  position: absolute;
+  top: 1.51px;
+  left: 10px;
+  flex-direction: column;
+  gap: 5px;
+  transform: rotate(-0.09deg);
+  transform-origin: 0 0;
+}
+.iconlylightvideoParent {
+  flex-direction: row;
+  gap: 10px;
+}
+.item,
+.message {
+  width: 345px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.message {
+  position: absolute;
+  bottom: 12px;
+  left: calc(50% - 172.5px);
+  flex-direction: column;
+  justify-content: center;
+}
+.messageWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 6px 6px 110px rgba(0, 0, 0, 0.16);
+  width: 100%;
+  height: 100px;
+}
+.today {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.todayWrapper {
+  border-radius: 40px;
+  background-color: #fe9370;
+  box-shadow: 6px 6px 110px rgba(0, 0, 0, 0.16);
+  display: flex;
+  flex-direction: row;
+  padding: 5px 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.helloWhereAre {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.helloWhereAreYouWrapper {
+  border-radius: 0 10px 10px 10px;
+  background-color: #fff;
+  box-shadow: 6px 6px 110px rgba(0, 0, 0, 0.16);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  position: relative;
+  font-size: 10px;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  color: #828282;
+}
+.frameDiv,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameDiv {
+  gap: 2px;
+}
+.frameWrapper {
+  align-self: stretch;
+}
+.div1 {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+}
+.imInBlockMJakselBroWrapper {
+  border-radius: 10px 0 10px 10px;
+  background-color: #ffe6de;
+  overflow: hidden;
+  padding: 10px 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 12px;
+  color: #2b2b53;
+}
+.frameWrapper1,
+.imInBlockMJakselBroWrapper,
+.parent {
+  display: flex;
+  flex-direction: row;
+}
+.parent {
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2px;
+}
+.frameWrapper1 {
+  width: 345px;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 10px;
+  color: #828282;
+}
+.frameContainer,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frameContainer {
+  width: 345px;
+  justify-content: flex-end;
+  gap: 16px;
+  text-align: justify;
+  font-size: 12px;
+  color: #2b2b53;
+}
+.frameGroup {
+  justify-content: flex-start;
+  gap: 20px;
+}
+.paperclipIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.typeSomething {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  outline: none;
+  border: none;
+  background: none;
+  height: auto;
+
+}
+.frameParent3 {
+  border-radius: 80px;
+  background-color: #f2f2f2;
+  border: 1.5px solid #e0e0e0;
+  box-sizing: border-box;
+  width: 291.5px;
+  height: 61.5px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 16px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.paperplanetiltIcon {
+  position: relative;
+  width: 45.25px;
+  height: 45.25px;
+  flex-shrink: 0;
+}
+.frameParent,
+.navbarPayment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navbarPayment {
+  background-color: #fff;
+  border-top: 1.5px solid #e0e0e0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 102.75px;
+  flex-shrink: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 15px;
+  color: #828282;
+}
+.frameParent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  gap: 30px;
+  text-align: left;
+  font-size: 13px;
+  color: #fff;
+}
+.notchIcon {
+  position: absolute;
+  top: -2px;
+  left: calc(50% - 109.5px);
+  width: 219px;
+  height: 30px;
+  display: none;
+}
+.rightSideIcon {
+  position: absolute;
+  top: 17.33px;
+  right: 14.67px;
+  width: 66.66px;
+  height: 11.34px;
+}
+.div5 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 54px;
+  height: 20px;
+}
+.leftSide,
+.statusbarTime {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+}
+.statusbarTime {
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+}
+.leftSide {
+  top: 12px;
+  left: 24px;
+}
+.statusbarIphoneXOrNewer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 44px;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: "SF Pro Text";
+}
+.iosBar {
+  position: absolute;
+  width: calc(100% - 241px);
+  right: 113px;
+  bottom: 12px;
+  left: 128px;
+  border-radius: 99px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 8px;
+}
+.chat {
+  position: relative;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  text-align: center;
+  font-size: 20px;
+  color: #000;
+  font-family: Poppins;
+  overflow-x: hidden;
+}

@@ -1,0 +1,32 @@
+.titleTopSubTitle1 {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 12px;
+    margin-left: -45vw;
+    z-index: 10;
+  }
+  .titleTopSubTitle1 {
+    top: 25px;
+    width: 90vw;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+  }
+  .iconlyregularlightarrowD {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .lorem1 {
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    font-weight: 600;
+  }

@@ -1,0 +1,800 @@
+.notchIcon {
+  position: absolute;
+  top: -2px;
+  left: calc(50% - 109.5px);
+  width: 219px;
+  height: 30px;
+  display: none;
+}
+.rightSideIcon {
+  position: absolute;
+  top: 17.33px;
+  right: 14.67px;
+  width: 66.66px;
+  height: 11.34px;
+}
+.div {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 54px;
+  height: 20px;
+}
+.leftSide,
+.statusbarTime {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+}
+.statusbarTime {
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+}
+.leftSide {
+  top: 12px;
+  left: 24px;
+}
+.statusbarIphoneXOrNewer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 44px;
+  overflow: hidden;
+  font-size: 15px;
+  color: #000;
+  font-family: "SF Pro Text";
+}
+.iconlyregularoutlinearrow {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.lorem {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.iconlyregularoutlinearrowParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.titleTopSubTitle {
+  position: absolute;
+  top: 54px;
+  left: 15px;
+  width: 345px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 20px;
+}
+.yourOrder {
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+.add,
+.plusIcon,
+.yourOrder {
+  position: relative;
+}
+.plusIcon {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+.add {
+  font-weight: 600;
+}
+.plusParent,
+.yourOrderParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.plusParent {
+  border-radius: 40px;
+  background-color: #fe9370;
+  padding: 5px 10px;
+  justify-content: flex-start;
+  gap: 5px;
+  font-size: 13px;
+  color: #fff;
+}
+.yourOrderParent {
+  position: absolute;
+  top: 168px;
+  left: 15px;
+  width: 345px;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.frameChild {
+  position: relative;
+  border-radius: 20px;
+  width: 115px;
+  height: 115px;
+  flex-shrink: 0;
+  overflow: hidden;
+  object-fit: cover;
+}
+.martabakManis {
+  position: relative;
+  line-height: 123.5%;
+  font-weight: 600;
+}
+.minusIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+.minusWrapper {
+  align-self: stretch;
+  border-radius: 40px;
+  background-color: #fe9370;
+  width: 35px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 1px 20px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.b {
+  position: relative;
+  line-height: 110%;
+}
+.frameContainer {
+  border-radius: 60px;
+  width: 110px;
+  height: 29px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameGroup,
+.martabakManisParent {
+  display: flex;
+  align-items: flex-start;
+}
+.martabakManisParent {
+  height: 115px;
+  flex-direction: column;
+  padding: 10px 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.frameGroup {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.b1 {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 110%;
+}
+.iconlyregularlightdocument {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.note {
+  position: relative;
+  line-height: 110%;
+  font-weight: 500;
+}
+.iconlyregularlightdocumentParent {
+  border-radius: 40px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 10px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #2b2b53;
+}
+.itemInCart,
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+.parent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 10px 0;
+  align-items: flex-end;
+  text-align: center;
+  font-size: 24px;
+  color: #4f4f4f;
+}
+.itemInCart {
+  position: absolute;
+  top: 349px;
+  left: 15px;
+  width: 345px;
+  flex-direction: row;
+  align-items: flex-start;
+  text-align: left;
+}
+.frameParent2,
+.minusContainer {
+  flex-shrink: 0;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+.minusContainer {
+  align-self: stretch;
+  border-radius: 40px;
+  background-color: #fff;
+  width: 35px;
+  overflow: hidden;
+  display: flex;
+  padding: 1px 20px;
+  justify-content: center;
+}
+.frameParent2 {
+  border-radius: 60px;
+  width: 110px;
+  height: 29px;
+  display: none;
+  padding: 3px;
+  justify-content: space-between;
+}
+.martabakManisGroup {
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.iconlyregularlightdocumentGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frameInner {
+  position: relative;
+  border-radius: 70px;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.frameParent3 {
+  border-radius: 40px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  width: 222px;
+  flex-direction: row;
+  padding: 5px 5px 5px 10px;
+  align-items: center;
+  text-align: left;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+.frameDiv,
+.frameParent3,
+.group {
+  display: flex;
+  justify-content: space-between;
+}
+.group {
+  height: 115px;
+  flex-direction: column;
+  padding: 10px 0;
+  box-sizing: border-box;
+  align-items: flex-end;
+  text-align: center;
+  font-size: 24px;
+  color: #4f4f4f;
+}
+.frameDiv {
+  width: 345px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.dividerIcon,
+.itemInCart1 {
+  position: absolute;
+  left: 15px;
+}
+.itemInCart1 {
+  top: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+.dividerIcon {
+  top: 624.25px;
+  width: 345px;
+  height: 1.5px;
+}
+.frameIcon {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.usePromosMore {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 110%;
+  font-weight: 500;
+}
+.usePromosMoreSparinglyWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 4px 0;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameParent4,
+.frameParent5,
+.frameParent8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameParent5 {
+  width: 265px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frameParent4,
+.frameParent8 {
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.frameParent4 {
+  position: absolute;
+  top: 654.25px;
+  left: 14.25px;
+  border-radius: 10px;
+  background-color: #ffe6de;
+  border: 1.5px solid #fff;
+  width: 346.5px;
+  height: 70.5px;
+  padding: 5px 10px;
+  text-align: left;
+  font-size: 15px;
+  color: #2c2b46;
+}
+.frameParent8 {
+  width: 345px;
+  padding: 0 20px;
+}
+.deliveryFeeWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.free {
+  position: relative;
+  line-height: 110%;
+  color: #219653;
+}
+.frameParent7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.dividerIcon1 {
+  position: relative;
+  width: 315px;
+  height: 0;
+  flex-shrink: 0;
+}
+.b7 {
+  position: relative;
+  font-size: 20px;
+  line-height: 110%;
+}
+.frameParent6 {
+  position: absolute;
+  top: 745px;
+  left: 15px;
+  border-radius: 20px;
+  border: 1px solid #bdbdbd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+}
+.iconlyregularbulklocation {
+  position: relative;
+  width: 29px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.location1 {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.jlBaliLarangan,
+.windhoekNamibia {
+  position: relative;
+  line-height: 110%;
+}
+.windhoekNamibia {
+  font-weight: 600;
+}
+.jlBaliLarangan {
+  align-self: stretch;
+  font-size: 10px;
+}
+.location2 {
+  flex: 1;
+  height: 49px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.iconlyregularboldeditParent,
+.mapsPin {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.mapsPin {
+  flex: 1;
+  align-items: flex-start;
+}
+.iconlyregularboldeditParent {
+  border-radius: 40px;
+  background-color: #fe9370;
+  padding: 5px 10px;
+  align-items: center;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+.itemInCart2,
+.location {
+  width: 345px;
+  display: flex;
+  flex-direction: row;
+}
+.location {
+  position: absolute;
+  top: 98px;
+  left: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+.itemInCart2 {
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.frameChild2 {
+  flex: 1;
+  position: relative;
+  border-radius: 0 10px 10px 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 115px;
+}
+.itemInCartParent,
+.navbarIcon {
+  display: flex;
+  align-items: center;
+}
+.itemInCartParent {
+  position: absolute;
+  top: 218px;
+  left: -44px;
+  width: 404px;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+}
+.navbarIcon {
+  width: 35px;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+  color: #fe9370;
+}
+.activity {
+  position: relative;
+}
+.navbarIcon1 {
+  width: 35px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+.navbarHome {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+}
+.navbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  border-top: 1.5px solid #e0e0e0;
+  box-sizing: border-box;
+  width: 375px;
+  height: 94.75px;
+  display: none;
+  flex-direction: row;
+  padding: 0 0 16px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #bdbdbd;
+}
+.paymentMethod1 {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.iconlycurvedboldshieldDoneParent {
+  justify-content: flex-start;
+}
+.categoriesSmall,
+.iconlycurvedboldshieldDoneParent,
+.paymentMethod {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.categoriesSmall {
+  border-radius: 40px;
+  background-color: #eb5757;
+  padding: 5px 10px;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+}
+.paymentMethod {
+  width: 345px;
+  justify-content: space-between;
+}
+.pay {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.payWrapper {
+  flex: 1;
+  border-radius: 50px;
+  background-color: #bdbdbd;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 20px;
+  align-items: center;
+  justify-content: center;
+}
+.navbarPayment,
+.payButton {
+  display: flex;
+  justify-content: flex-start;
+}
+.payButton {
+  width: 345px;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 20px;
+  color: #f2f2f2;
+}
+.navbarPayment {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  border-top: 1.5px solid #e0e0e0;
+  box-sizing: border-box;
+  width: 375px;
+  height: 144.75px;
+  flex-direction: column;
+  padding: 10px 0 25px;
+  align-items: center;
+  gap: 20px;
+}
+.backgroundDim {
+  top: 0;
+  left: 0;
+  background-color: rgba(43, 43, 83, 0.5);
+  width: 375px;
+  height: 812px;
+  overflow: hidden;
+}
+.backgroundDim,
+.iosBar,
+.text {
+  position: absolute;
+}
+.iosBar {
+  width: calc(100% - 241px);
+  right: 116px;
+  bottom: 12px;
+  left: 125px;
+  border-radius: 99px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 8px;
+}
+.text {
+  top: 30px;
+  left: 15px;
+}
+.applyWrapper,
+.button {
+  flex-direction: row;
+  align-items: center;
+}
+.applyWrapper {
+  flex: 1;
+  border-radius: 50px;
+  background-color: #2c2b46;
+  overflow: hidden;
+  display: flex;
+  padding: 15px 20px;
+  justify-content: center;
+}
+.button {
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+  width: 345px;
+  display: none;
+  justify-content: flex-start;
+  color: #fff;
+}
+.applyContainer {
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 20px;
+  justify-content: center;
+}
+.applyContainer,
+.button2 {
+  flex: 1;
+  align-items: center;
+}
+.button1,
+.button2,
+.button3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.button3 {
+  width: 200px;
+  flex-shrink: 0;
+  align-items: center;
+  color: #fff;
+}
+.button1 {
+  position: absolute;
+  top: 334px;
+  left: 15px;
+  width: 345px;
+  align-items: flex-start;
+  gap: 16px;
+}
+.illustrationsWillFollow {
+  position: absolute;
+  top: 99px;
+  left: 43px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.illustrationsWillFollowWrapper {
+  position: absolute;
+  top: 23px;
+  left: 27px;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  width: 321px;
+  height: 216px;
+  overflow: hidden;
+}
+.areYouSureWantDeleteWrapper {
+  position: absolute;
+  top: 269px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkOut,
+.delete {
+  background-color: #fff;
+  overflow: hidden;
+}
+.delete {
+  position: absolute;
+  top: 389px;
+  left: 0;
+  border-radius: 20px 20px 0 0;
+  width: 375px;
+  height: 414px;
+  font-size: 20px;
+}
+.checkOut {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 803px;
+  text-align: center;
+  font-size: 16px;
+  color: #2b2b53;
+  font-family: Poppins;
+}

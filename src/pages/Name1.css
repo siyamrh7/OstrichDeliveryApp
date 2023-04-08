@@ -1,0 +1,112 @@
+.iconlyregularoutlinearrow-2 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.get-started-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.iconlyregularoutlinearrow-group {
+  position: absolute;
+  top: 41px;
+  left: 15px;
+  width: 345px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.apply1 {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.apply-container {
+  flex: 1;
+  border-radius: var(--br-31xl);
+  background-color: var(--tersier);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-mini) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+}
+.button-container {
+  position: absolute;
+  top: 732px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--white);
+}
+.whats-your-name {
+  position: relative;
+}
+.what-should-people {
+  position: relative;
+  font-weight: 500;
+}
+.street-container,
+.street1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.street1 {
+  flex: 1;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid var(--gray-5);
+  box-sizing: border-box;
+  height: 52.75px;
+  overflow: hidden;
+  padding: var(--padding-base);
+  font-weight: 500;
+  font-size: 18px;
+}
+.street-container {
+  width: 95vw;
+}
+.frame-container,
+.whats-your-name-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-lg);
+  color: var(--gray-4);
+}
+.whats-your-name-parent {
+  position: absolute;
+  top: 157px;
+  left: 50%;
+  margin-left: -45vw;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslateblue);
+}
+.name {
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: 24.96px;
+  color: var(--tersier);
+  font-family: var(--font-poppins);
+}

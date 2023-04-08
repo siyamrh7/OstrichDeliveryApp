@@ -1,0 +1,379 @@
+.mapsicleMapIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 828px;
+  height: 828px;
+  object-fit: cover;
+}
+.notchIcon {
+  position: absolute;
+  top: -2px;
+  left: calc(50% - 109.5px);
+  width: 219px;
+  height: 30px;
+  display: none;
+}
+.rightSideIcon {
+  position: absolute;
+  top: 17.33px;
+  right: 14.67px;
+  width: 66.66px;
+  height: 11.34px;
+}
+.div {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  width: 54px;
+  height: 20px;
+}
+.leftSide,
+.statusbarTime {
+  position: absolute;
+  width: 54px;
+  height: 21px;
+}
+.statusbarTime {
+  top: 0;
+  left: 0;
+  border-radius: 24px;
+}
+.leftSide {
+  top: 12px;
+  left: 24px;
+}
+.statusbarIphoneXOrNewer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 375px;
+  height: 44px;
+  overflow: hidden;
+  font-size: 15px;
+  font-family: "SF Pro Text";
+}
+.iosBar {
+  position: absolute;
+  width: calc(100% - 241px);
+  right: 113px;
+  bottom: 12px;
+  left: 128px;
+  border-radius: 99px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 8px;
+}
+.back {
+  position: relative;
+  letter-spacing: -0.5px;
+  line-height: 20px;
+  font-weight: 600;
+}
+.applyWrapper,
+.backWrapper {
+  flex: 1;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 20px;
+  align-items: center;
+  justify-content: center;
+}
+.backWrapper {
+  border: 1px solid #fff;
+}
+.applyWrapper {
+  background-color: #fff;
+}
+.frameParent,
+.orderingInner {
+  position: absolute;
+  display: none;
+}
+.frameParent {
+  bottom: 33px;
+  left: 15px;
+  width: 345px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.orderingInner {
+  top: 485px;
+  left: 0;
+  border-radius: 20px 20px 0 0;
+  background-color: #fff;
+  width: 375px;
+  height: 327px;
+  overflow: hidden;
+  color: #fff;
+}
+.cookingPotIcon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.cookingPotWrapper {
+  position: relative;
+  border-radius: 20px;
+  background-color: #ffe6de;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  border-radius: 10px;
+  background-color: #fe9370;
+  height: 3px;
+  flex-shrink: 0;
+}
+.rectangleWrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+  align-items: center;
+  justify-content: center;
+}
+.foodBarIcon {
+  position: absolute;
+  top: 8px;
+  left: 7.33px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  height: 3px;
+  flex-shrink: 0;
+}
+.deliveryScooterIcon {
+  position: absolute;
+  top: 7px;
+  left: 6.67px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.deliveryScooterWrapper {
+  position: relative;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.takeAwayFood {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.frameDiv,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameDiv {
+  flex: 1;
+  padding: 0 10px;
+}
+.frameWrapper {
+  width: 335px;
+}
+.theHalalFood,
+.yourFoodIs {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+}
+.yourFoodIs {
+  font-weight: 600;
+}
+.theHalalFood {
+  font-size: 15px;
+  color: #bdbdbd;
+}
+.yourFoodIsBeingPreparedParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorIcon {
+  position: relative;
+  width: 335px;
+  height: 1.5px;
+  flex-shrink: 0;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  color: #1e1e1e;
+}
+.motorcycleDeliveryMultipleB {
+  position: relative;
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.yourDeliveryIs {
+  margin: 0;
+}
+.yourDeliveryIsContainer {
+  position: relative;
+  line-height: 30px;
+  font-weight: 600;
+}
+.yourDeliveryIsOnTheWayWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.min {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  text-align: center;
+}
+.motorcycleDeliveryMultipleBParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: left;
+}
+.ellipseIcon {
+  position: relative;
+  width: 47px;
+  height: 47px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.pangestu {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+.ellipseParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.iconlyregularlightcall {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+}
+.iconlyregularlightcallWrapper,
+.iconlyregularlightchatWrapper {
+  border-radius: 40px;
+  padding: 5px 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.iconlyregularlightcallWrapper {
+  background-color: #eb5757;
+  display: flex;
+  flex-direction: row;
+}
+.iconlyregularlightchatWrapper {
+  background-color: #6fcf97;
+}
+.frameParent1,
+.frameParent2,
+.iconlyregularlightchatWrapper {
+  display: flex;
+  flex-direction: row;
+}
+.frameParent2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frameParent1 {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.frameGroup,
+.frameParent3 {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+.frameParent3 {
+  width: 345px;
+  display: none;
+  flex-direction: row;
+  gap: 10px;
+  color: #fff;
+}
+.a,
+.ordering {
+  background-color: #fff;
+  overflow: hidden;
+}
+.a {
+  position: absolute;
+  top: 477px;
+  left: 0;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 30px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  color: #2b2b53;
+}
+.ordering {
+  position: relative;
+  border-radius: 20px;
+  width: 100%;
+  height: 812px;
+  text-align: center;
+  font-size: 20px;
+  color: #000;
+  font-family: Poppins;
+}
